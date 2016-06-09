@@ -4,10 +4,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.nut.sampleviewpager.SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Second Fragment"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:background="#12c8ff"/>
 
 </FrameLayout>
