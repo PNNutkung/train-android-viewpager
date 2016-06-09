@@ -12,5 +12,27 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/main_view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_btn_linear"/>
+    <LinearLayout
+        android:id="@+id/main_btn_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/btn_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prev" />
+        <Button
+            android:layout_gravity="right"
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+    </LinearLayout>
 </RelativeLayout>
