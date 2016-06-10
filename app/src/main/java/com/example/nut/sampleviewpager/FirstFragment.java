@@ -8,6 +8,14 @@ import android.view.ViewGroup;
 
 public class FirstFragment extends Fragment {
 
+    public static FirstFragment newInstance() {
+
+        Bundle args = new Bundle();
+        FirstFragment fragment = new FirstFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

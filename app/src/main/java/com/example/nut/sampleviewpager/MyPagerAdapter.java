@@ -19,7 +19,7 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new FirstFragment();
+                return FirstFragment.newInstance();
             case 1:
                 return new SecondFragment();
             case 2:
