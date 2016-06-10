@@ -5,6 +5,7 @@
     tools:context="com.example.nut.sampleviewpager.SecondFragment">
 
     <TextView
+        android:id="@+id/fragment_text_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Second Fragment"

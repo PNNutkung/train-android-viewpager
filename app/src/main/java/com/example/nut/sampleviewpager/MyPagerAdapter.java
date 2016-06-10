@@ -21,9 +21,9 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return FirstFragment.newInstance();
             case 1:
-                return new SecondFragment();
+                return SecondFragment.newInstance();
             case 2:
-                return new ThirdFragment();
+                return ThirdFragment.newInstance();
             default:
                 return new Fragment();
         }
